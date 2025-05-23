@@ -1,0 +1,26 @@
+.main {
+  background: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.main h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #0a3d62;
+}
+
+/* Responsivo */
+/* Centralizar conteúdo no mobile */
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}

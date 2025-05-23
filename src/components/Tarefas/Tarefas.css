@@ -1,0 +1,68 @@
+.tarefas {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s;
+  flex-wrap: wrap;
+}
+
+.tarefas li:hover {
+  background: #f2f2f2;
+}
+
+.tarefas li span {
+  display: flex;
+  align-items: center;
+}
+
+.tarefas li .edit,
+.tarefas li .delete {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.tarefas li .edit {
+  color: #1e90ff;
+}
+
+.tarefas li .delete {
+  color: #e74c3c;
+}
+
+.tarefas li .edit:hover,
+.tarefas li .delete:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* Botões em um container separado */
+.tarefas li .acoes {
+  display: flex;
+  gap: 10px;
+}
+
+/* Centralizar tudo no mobile */
+@media (max-width: 768px) {
+  .tarefas {
+    align-items: center;
+  }
+
+  .tarefas li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tarefas li .acoes {
+    margin-top: 10px;
+  }
+}
