@@ -3,18 +3,21 @@ Aplicação web desenvolvida com React para gerenciar uma lista de tarefas de fo
 
 📸 Visual da aplicação
 
-![print pagina lista de tarefas ](https://github.com/user-attachments/assets/7df073a9-0714-4dfb-91ea-8c1e98053aa6)
+![print pagina lista de tarefas ]![imagem_2025-05-26_213510292](https://github.com/user-attachments/assets/8584fb8c-b92a-4c11-ab91-21b33a4776e0)
+
 
 🔗 Acesse a aplicação
 Você pode acessar o projeto publicado no GitHub Pages por este link:
 👉 [Clique aqui](https://jeffersonjuni.github.io/lista_de_tarefas/) para ver a aplicação online
 
 ⚙️ Funcionalidades:
-✅ Adicionar novas tarefas
+📓 Adicionar novas tarefas
 
 ✏️ Editar tarefas existentes
 
 🗑️ Excluir tarefas
+
+✅ checkbox de tarefa feita 
 
 💾 Salvamento automático no navegador
 
