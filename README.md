@@ -3,7 +3,7 @@ Aplicação web desenvolvida com React para gerenciar uma lista de tarefas de fo
 
 📸 Visual da aplicação
 
-![print pagina lista de tarefas ]![imagem_2025-05-26_213510292](https://github.com/user-attachments/assets/8584fb8c-b92a-4c11-ab91-21b33a4776e0)
+![imagem_2025-05-26_213510292](https://github.com/user-attachments/assets/8584fb8c-b92a-4c11-ab91-21b33a4776e0)
 
 
 🔗 Acesse a aplicação
